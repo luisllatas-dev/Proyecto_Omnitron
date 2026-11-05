@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compilados / Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker / Bases de datos
+mongo_data/
+
+# Logs del sistema y OS
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
